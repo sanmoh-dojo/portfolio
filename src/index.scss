@@ -14,3 +14,22 @@ body {
 * {
   box-sizing: border-box;
 }
+
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #75b79e;
+  border-radius: 0.25em;
+  transition: background 1s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: darken(#75b79e, 15%);
+}

@@ -12,7 +12,7 @@ function Stack() {
         <div className="content">
           {Data.technologies.map((lang, i) => {
             return (
-              <div>
+              <div key={i}>
                 <div>{lang.name}</div>
                 <hr color="#75b79e" size="1" style={{width: lang.level}} />
               </div>

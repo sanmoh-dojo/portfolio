@@ -9,26 +9,28 @@ function Stack() {
       <div className="centered text-center">
         <p className="title text-uppercase text-spaced">Contact</p>
         <table className="cl-green">
-          <tr>
-            <td>
-              <a target="_blank" href="https://github.com/sanmoh-dojo">
-                <i class="lab la-github" />
-              </a>
-            </td>
-            <td>
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/sanmoh-hombal-3a8b481a5/"
-              >
-                <i class="lab la-linkedin" />
-              </a>
-            </td>
-            <td>
-              <a href="mailto:sanmoh.hombal@gmail.com">
-                <i class="las la-envelope" />
-              </a>
-            </td>
-          </tr>
+          <tbody>
+            <tr>
+              <td>
+                <a target="_blank" href="https://github.com/sanmoh-dojo">
+                  <i className="lab la-github" />
+                </a>
+              </td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/sanmoh-hombal-3a8b481a5/"
+                >
+                  <i className="lab la-linkedin" />
+                </a>
+              </td>
+              <td>
+                <a href="mailto:sanmoh.hombal@gmail.com">
+                  <i className="las la-envelope" />
+                </a>
+              </td>
+            </tr>
+          </tbody>
         </table>
         <NavLink
           to="/"
