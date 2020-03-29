@@ -5,7 +5,7 @@ import "../styles/components/about.scss";
 
 function About() {
   return (
-    <div className="section about">
+    <div className="section about cl-black">
       <div className="text-center centered">
         <p className="title text-uppercase text-spaced">About</p>
         <div className="content">

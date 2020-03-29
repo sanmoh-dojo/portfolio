@@ -6,7 +6,7 @@ import "../styles/components/work.scss";
 
 function Work() {
   return (
-    <div className="section work">
+    <div className="section work cl-black">
       <div className="centered text-center">
         <p className="title text-uppercase text-spaced">Work</p>
         {Data.companies.map((company, index) => {

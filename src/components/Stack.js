@@ -6,7 +6,7 @@ import "../styles/components/stack.scss";
 
 function Stack() {
   return (
-    <div className="section stack">
+    <div className="section stack cl-black">
       <div className="centered text-center">
         <p className="title text-uppercase text-spaced">Tech Stack</p>
         <div className="content">

@@ -5,7 +5,7 @@ import "../styles/components/contact.scss";
 
 function Stack() {
   return (
-    <div className="section contact">
+    <div className="section contact cl-black">
       <div className="centered text-center">
         <p className="title text-uppercase text-spaced">Contact</p>
         <table className="cl-green">

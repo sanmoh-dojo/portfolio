@@ -5,7 +5,7 @@ import "../styles/components/home.scss";
 
 function Home() {
   return (
-    <div className="section home">
+    <div className="section home cl-black">
       <div className="centered text-uppercase text-center text-spaced">
         <p className="title">Hi, I'm Sanmoh</p>
         <p className="cl-green">Designer / Developer</p>
