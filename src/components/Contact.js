@@ -11,7 +11,7 @@ function Stack() {
         <table className="cl-green">
           <tr>
             <td>
-              <a target="_blank" href="https://github.com/sanmoh-hombal">
+              <a target="_blank" href="https://github.com/sanmoh-dojo">
                 <i class="lab la-github" />
               </a>
             </td>
