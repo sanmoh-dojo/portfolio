@@ -1,0 +1,24 @@
+{
+  "technologies": [
+    { "name": "Angular", "level": "90%" },
+    { "name": "React", "level": "75%" },
+    { "name": "Vue", "level": "50%" },
+    { "name": "Django", "level": "60%" },
+    { "name": "Spring", "level": "30%" },
+    { "name": "NodeJS", "level": "75%" },
+    { "name": "HTML", "level": "95%" },
+    { "name": "CSS", "level": "80%" },
+    { "name": "SASS", "level": "85%" },
+    { "name": "JavaScript", "level": "75%" },
+    { "name": "TypeScript", "level": "65%" },
+    { "name": "Python", "level": "90%" },
+    { "name": "Java", "level": "50%" },
+    { "name": "Sketch", "level": "85%" },
+    { "name": "Figma", "level": "85%" },
+    { "name": "Adobe XD", "level": "85%" },
+    { "name": "Photoshop", "level": "75%" },
+    { "name": "Illustrator", "level": "50%" },
+    { "name": "After Effects", "level": "95%" },
+    { "name": "Premiere Pro", "level": "75%" }
+  ]
+}

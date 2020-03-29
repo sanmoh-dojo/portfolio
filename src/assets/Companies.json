@@ -1,0 +1,112 @@
+{
+  "companies": [
+    {
+      "name": "Fyle",
+      "location": "Bangalore",
+      "designation": "Member of Technical Staff",
+      "startDate": {
+        "month": "June",
+        "year": "2019"
+      },
+      "endDate": {
+        "month": "",
+        "year": "Present"
+      },
+      "work": [
+        "Have been dabbling across the tech stack. Mainly AngularJS (Front-End), Django (Eventhandler and several services) and Spring (Back-End).",
+        "Leading contributions in migrating AngularJS to newer versions of Angular.",
+        "Recently I worked on a full infra revamp of a server side PDF generation service.",
+        "Active role in weekly deployments."
+      ]
+    },
+    {
+      "name": "Alippo",
+      "location": "Bangalore",
+      "designation": "Full Stack Developer",
+      "startDate": {
+        "month": "November",
+        "year": "2018"
+      },
+      "endDate": {
+        "month": "June",
+        "year": "2019"
+      },
+      "work": [
+        "Built the company’s entire e-commerce front-end on top of an VueJS based open-source.",
+        "Added support for payment gateway integration into the open source. (Got in touch with the lead developer for the PR but was declined as the payment gateway flow was mostly specific for Indian based payment gateways)",
+        "Built several feature flows on the open source to help with the gamification part of e-commerce."
+      ]
+    },
+    {
+      "name": "Flabber Tech",
+      "location": "Bangalore",
+      "designation": "Front End Developer",
+      "startDate": {
+        "month": "July",
+        "year": "2018"
+      },
+      "endDate": {
+        "month": "June",
+        "year": "2019"
+      },
+      "work": [
+        "Developed the company’s frontend portfolio using react and material.",
+        "Formulated a PR Review, Testing and Deployment workflow for the engineering and design team.",
+        "Maintained the company’s frontend master branch and performed periodical deployments."
+      ]
+    },
+    {
+      "name": "Hyssop",
+      "location": "Remote",
+      "designation": "Front End Developer, Graphic Artist",
+      "startDate": {
+        "month": "January",
+        "year": "2018"
+      },
+      "endDate": {
+        "month": "July",
+        "year": "2018"
+      },
+      "work": [
+        "Got started with designing graphic content for several marketing campaigns.",
+        "Further got into developing a static website for the company’s landing page.",
+        "Integrated few Magento based APIs into the wordpress front-end."
+      ]
+    },
+    {
+      "name": "SDMCET",
+      "location": "Dharwad",
+      "designation": "Front End Developer",
+      "startDate": {
+        "month": "August",
+        "year": "2017"
+      },
+      "endDate": {
+        "month": "January",
+        "year": "2018"
+      },
+      "work": [
+        "Worked alongside a design agency to get the new college website up and running.",
+        "Managed all the graphic and media content that came out of the college. Helped maintain and update the college website."
+      ]
+    },
+    {
+      "name": "Insignia",
+      "location": "Dharwad",
+      "designation": "Full Stack Developer, Tech Team Lead",
+      "startDate": {
+        "month": "August",
+        "year": "2017"
+      },
+      "endDate": {
+        "month": "January",
+        "year": "2018"
+      },
+      "work": [
+        "Lead a team of 4 developers and created the website for a national level fest.",
+        "Build a ticketing system and payments management system in the college local server to handle event participations.",
+        "Successfully digitalized the previously handwritten participation entries."
+      ]
+    }
+  ]
+}

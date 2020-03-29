@@ -1,0 +1,32 @@
+.work {
+  padding: 2em;
+
+  .title {
+    font-size: 2em;
+  }
+
+  .icon {
+    margin: 1em;
+    font-size: 2em;
+    transition: transform 500ms;
+  }
+
+  .icon:hover {
+    transform: scale(1.25);
+  }
+
+  .company {
+    line-height: 2em;
+    @media(max-width: 767px) {
+      margin: 2.5em auto;
+    }
+    @media(min-width: 767px) {
+      width: 50%;
+      margin: 3em auto;
+    }
+
+    .name {
+      font-size: 1.5em;
+    }
+  }
+}

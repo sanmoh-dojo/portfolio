@@ -1,31 +1,36 @@
 import React, {Component} from "react";
-import {Router, Route, Switch} from "react-router-dom";
+import {Route, Switch} from "react-router-dom";
 import {CSSTransition, TransitionGroup} from "react-transition-group";
 
-import Home from "./Home.js";
-import About from "./About.js";
+import Home from "./Home";
+import About from "./About";
+import Work from "./Work";
+import Stack from "./Stack";
+import Contact from "./Contact";
 
 import "../styles/app.scss";
+import "../styles/global/routeAnimation.scss";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
-      <Route
-        render={({location}) => (
-          <TransitionGroup>
-            <CSSTransition key={location.key} timeout={1000} classNames="fade">
-              <Switch location={location}>
-                <Route exact path="/" component={Home} />
-                <Route path="/about" component={About} />
-              </Switch>
-            </CSSTransition>
-          </TransitionGroup>
-        )}
-      />
+      <div>
+        <Route
+          render={({location}) => (
+            <TransitionGroup>
+              <CSSTransition key={location.key} timeout={300} classNames="fade">
+                <Switch location={location}>
+                  <Route exact path="/" component={Home} />
+                  <Route path="/about" component={About} />
+                  <Route path="/work" component={Work} />
+                  <Route path="/stack" component={Stack} />
+                  <Route path="/contact" component={Contact} />
+                </Switch>
+              </CSSTransition>
+            </TransitionGroup>
+          )}
+        />
+      </div>
     );
   }
 }

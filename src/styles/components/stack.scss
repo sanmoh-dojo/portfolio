@@ -1,0 +1,22 @@
+.stack {
+  line-height: 2em;
+
+  .title {
+    font-size: 2em;
+  }
+
+  .content {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .icon {
+    margin: 1em;
+    font-size: 2em;
+    transition: transform 500ms;
+  }
+
+  .icon:hover {
+    transform: scale(1.25);
+  }
+}
