@@ -2,7 +2,6 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 
 import Data from "../assets/Companies.json";
-import "../styles/components/work.scss";
 
 function Work() {
   return (

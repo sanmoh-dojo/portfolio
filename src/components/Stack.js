@@ -2,13 +2,12 @@ import React from "react";
 import {NavLink} from "react-router-dom";
 
 import Data from "../assets/Stack.json";
-import "../styles/components/stack.scss";
 
 function Stack() {
   return (
     <div className="section stack cl-black">
       <div className="centered text-center">
-        <p className="title text-uppercase text-spaced">Tech Stack</p>
+        <p className="title text-uppercase text-spaced">Stack</p>
         <div className="content">
           {Data.technologies.map((lang, i) => {
             return (

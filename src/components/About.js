@@ -1,8 +1,6 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 
-import "../styles/components/about.scss";
-
 function About() {
   return (
     <div className="section about cl-black">
@@ -21,7 +19,7 @@ function About() {
             <br />
             <span className="cl-green">
               As a software developer, I enjoy using my obsessive attention to
-              detail, an unquivocal love for making things and a mission-driven
+              detail, an unequivocal love for making things and a mission-driven
               work ethic to literally change the world.
             </span>
             <br />

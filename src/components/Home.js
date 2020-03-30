@@ -1,8 +1,6 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 
-import "../styles/components/home.scss";
-
 function Home() {
   return (
     <div className="section home cl-black">

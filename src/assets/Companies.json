@@ -13,7 +13,7 @@
         "year": "Present"
       },
       "work": [
-        "Have been dabbling across the tech stack. Mainly AngularJS (Front-End), Django (Eventhandler and several services) and Spring (Back-End).",
+        "Have been dabbling across the tech stack. Mainly AngularJS, Ionic, Django and Spring.",
         "Leading contributions in migrating AngularJS to newer versions of Angular.",
         "Recently I worked on a full infra revamp of a server side PDF generation service.",
         "Active role in weekly deployments."
@@ -33,7 +33,7 @@
       },
       "work": [
         "Built the company’s entire e-commerce front-end on top of an VueJS based open-source.",
-        "Added support for payment gateway integration into the open source. (Got in touch with the lead developer for the PR but was declined as the payment gateway flow was mostly specific for Indian based payment gateways)",
+        "Added support for payment gateway integration into the open source.",
         "Built several feature flows on the open source to help with the gamification part of e-commerce."
       ]
     },

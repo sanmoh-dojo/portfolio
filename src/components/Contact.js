@@ -1,8 +1,6 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 
-import "../styles/components/contact.scss";
-
 function Stack() {
   return (
     <div className="section contact cl-black">
