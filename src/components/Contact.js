@@ -1,6 +1,13 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 
+function handleClick() {
+  setTimeout(() => {
+    localStorage.setItem("firstTimeDone", "yes");
+    window.location.reload();
+  }, 100);
+}
+
 function Stack() {
   return (
     <div className="section contact cl-black">
@@ -34,8 +41,9 @@ function Stack() {
           to="/"
           style={{color: "black", textDecoration: "none"}}
           activeStyle={{color: "black", textDecoration: "none"}}
+          onClick={handleClick}
         >
-          <i className="las la-long-arrow-alt-right icon" />
+          <i className="las la-home icon" />
         </NavLink>
       </div>
     </div>

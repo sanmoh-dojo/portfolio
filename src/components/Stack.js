@@ -9,11 +9,15 @@ function Stack() {
       <div className="centered text-center">
         <p className="title text-uppercase text-spaced">Stack</p>
         <div className="content">
-          {Data.technologies.map((lang, i) => {
+          {Data.technologies.map((lang, i, arr) => {
             return (
               <div key={i}>
                 <div>{lang.name}</div>
-                <hr color="#75b79e" size="1" style={{width: lang.level}} />
+                {arr.length - 1 === i ? (
+                  ""
+                ) : (
+                  <hr color="#75b79e" size="1" style={{width: lang.level}} />
+                )}
               </div>
             );
           })}

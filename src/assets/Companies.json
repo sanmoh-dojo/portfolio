@@ -15,7 +15,7 @@
       "work": [
         "Have been dabbling across the tech stack. Mainly AngularJS, Ionic, Django and Spring.",
         "Leading contributions in migrating AngularJS to newer versions of Angular.",
-        "Recently I worked on a full infra revamp of a server side PDF generation service.",
+        "Recently worked on a full infra revamp of a server side PDF generation service.",
         "Active role in weekly deployments."
       ]
     },
@@ -34,6 +34,7 @@
       "work": [
         "Built the company’s entire e-commerce front-end on top of an VueJS based open-source.",
         "Added support for payment gateway integration into the open source.",
+        "Worked on performance optimization and brought the lighthouse performance score from 18 to 76.",
         "Built several feature flows on the open source to help with the gamification part of e-commerce."
       ]
     },

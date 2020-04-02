@@ -5,7 +5,9 @@
   "dependencies": {
     "node-sass": "^4.13.1",
     "react": "^16.4.1",
+    "react-animated-css": "^1.2.1",
     "react-dom": "^16.4.1",
+    "react-overlay-menu": "^1.0.0",
     "react-router-dom": "^5.1.2",
     "react-spring": "^8.0.19"
   },
