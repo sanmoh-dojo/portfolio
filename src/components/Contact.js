@@ -17,13 +17,18 @@ function Stack() {
           <tbody>
             <tr>
               <td>
-                <a target="_blank" href="https://github.com/sanmoh-dojo">
+                <a
+                  target="_blank"
+                  href="https://github.com/sanmoh-dojo"
+                  rel="noopener noreferrer"
+                >
                   <i className="lab la-github" />
                 </a>
               </td>
               <td>
                 <a
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/sanmoh-hombal-3a8b481a5/"
                 >
                   <i className="lab la-linkedin" />

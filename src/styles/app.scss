@@ -8,3 +8,11 @@
 @import './components/work.scss';
 @import './components/stack.scss';
 @import './components/contact.scss';
+
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper > div {
+  position: absolute;
+}
